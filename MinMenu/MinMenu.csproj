@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>MinMenu.ico</ApplicationIcon>
+		<PackageIcon>MinMenu.png</PackageIcon>
+		<PublishReadyToRun>true</PublishReadyToRun>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<Optimize>true</Optimize>
+		<DebugType>pdbonly</DebugType>
+		<DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="MinMenu.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="MinMenu.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
