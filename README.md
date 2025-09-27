@@ -9,6 +9,7 @@ MinMenu je jednoduchá Windows aplikace (.NET 9, WinForms), která zobrazí kont
 - Po kliknutí na položku se spustí odpovídající program/soubor.
 - Menu se automaticky zavře po výběru nebo ztrátě fokusu.
 - Okno aplikace je neviditelné, zobrazuje se pouze menu.
+- **Aplikaci lze připnout na hlavní panel Windows a používat ji podobně jako "Quick Launch" – menu je tak dostupné přímo z panelu.**
 
 ## Instalace
 
@@ -23,6 +24,8 @@ Spusťte aplikaci s parametrem, který určuje cestu k adresáři se zástupci: 
 Pokud nezadáte žádný parametr, použije se výchozí složka: %USERPROFILE%\Links
 
 Menu se zobrazí na pozici kurzoru myši.
+
+**Tip:** Po sestavení můžete aplikaci připnout na hlavní panel Windows. Kliknutím na ikonu na panelu se zobrazí menu s odkazy, podobně jako u "Quick Launch".
 
 ## Požadavky
 
@@ -45,6 +48,7 @@ MinMenu is a simple Windows application (.NET 9, WinForms) that displays a conte
 - Clicking a menu item launches the corresponding program/file.
 - The menu automatically closes after selection or when it loses focus.
 - The application window is invisible; only the menu is shown.
+- **You can pin the application to the Windows taskbar and use it similarly to "Quick Launch" – the menu is then available directly from the taskbar.**
 
 ## Installation
 
@@ -59,6 +63,8 @@ Run the application with a parameter specifying the path to the directory contai
 If no parameter is provided, the default folder is used: %USERPROFILE%\Links
 
 The menu will appear at the mouse cursor position.
+
+**Tip:** After building, you can pin the application to the Windows taskbar. Clicking the icon on the taskbar will show the shortcut menu, similar to "Quick Launch".
 
 ## Requirements
 
