@@ -74,7 +74,8 @@ namespace MinMenu
             {
                 Process.Start(new ProcessStartInfo
                 {
-                    FileName = linkPath,
+                    FileName = "explorer.exe",
+                    Arguments = $"\"{linkPath}\"",
                     UseShellExecute = true
                 });
             }
